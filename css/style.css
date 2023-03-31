@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;800&display=swap');
+
+.item1{
+  background: linear-gradient(162deg, #57cc99, #1ece82);
+  background-size: 400% 400%;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center center; /* position the image in the center */
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: left; }
+.item4 { grid-area: main; }
+.item5 { grid-area: footer; }
+
+/* For desktop screens */
+@media only screen and (min-width: 800px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu menu menu menu menu menu'
+          'left left main main main main'
+          'footer footer footer footer footer footer';
+        gap: 1px;
+        background-color: #000000;
+        padding: 1px;
+    }
+    }
+    
+    /* For smaller mobile screens (max-width: 779px) */
+    @media only screen and (max-width: 799px) {
+        .grid-container {
+          display: grid;
+          grid-template-areas:
+            'header'
+            'menu'
+            'main'
+            'left'
+            'footer';
+          gap: 1px;
+          background-color: #000000;
+          padding: 1px;
+      }
+        }
+
+    .grid-container > div {
+        /* background-color: rgba(255, 255, 255, 0.8); */
+        text-align: center;
+        /* padding: 20px 0; */
+        font-size: 30px;
+      }
+      a{
+        color: #57cc99;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #2ADE90;
+        text-decoration: none;
+      }
+      h1, h2, h3, h4, h5, h6{
+        font-family: 'Inter', sans-serif;
+      }
+
+      h2{
+        font-size: 30px;
+        margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+      }
+
+      p{
+        font-size: 18px;
+      }
+
+      .item3{
+        width: 250px;
+        background-color: #E7E7E7;
+        
+      }
+      .side-contact-info .side-contact-icons{
+      text-align: center;
+      padding: 0px 50px;
+      }
+
+      .side-contact-icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-gap: 20px;
+      }
+
+      .skill-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .side-contact-icons p{
+        font-size: 15px;
+        }
+
+      .side-contact-icons img {
+        width: 60px;
+        height: auto;
+      }
+      
+
+      .navbar {
+        text-align: left;
+      }
+
+      .item4{
+        
+        grid-area: main;
+        text-align: left;
+      }
+
+      .main-content p{
+        color: #FFFFFF;
+      }
+      .main-content{
+        background-color: #273B49;
+        color: #D9D9D9;
+        text-align: left;
+        padding: 0px 50px;
+      }
+
+      form {
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+        width: 500px;
+        margin: 0 auto;
+      }
+      option {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        resize: vertical;
+        color: black;
+      }
+
+      select#purpose {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        resize: vertical;
+        color: black;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        resize: vertical;
+        color: black;
+      }
+      @media screen and (max-width: 760px) {
+        input[type="text"],
+        input[type="email"],
+        textarea {
+          padding: 12 0px;
+          width: 100%;
+        }
+      }
+      label {
+        
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      button[type="submit"] {
+        width: 100%;
+        background-color: #57cc99;
+        color: white;
+        padding: 12px 0px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 20px;
+        
+      }
+      button[type="submit"]:hover {
+        background-color: #419a73;
+      }
+      .success-message {
+        background-color: #dff0d8;
+        border: 1px solid #d6e9c6;
+        color: #3c763d;
+        padding: 10px;
+        margin-top: 20px;
+      }
+      .error-message {
+        background-color: #f2dede;
+        border: 1px solid #ebccd1;
+        color: #a94442;
+        padding: 10px;
+        margin-top: 20px;
+      }
+
+      .submit-button{
+        width: 100%;
+      }
