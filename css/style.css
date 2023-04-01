@@ -12,7 +12,7 @@
 .item5 { grid-area: footer; }
 
 /* For desktop screens */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
     .grid-container {
         display: grid;
         grid-template-areas:
@@ -28,7 +28,7 @@
     }
     
     /* For smaller mobile screens (max-width: 779px) */
-    @media only screen and (max-width: 799px) {
+    @media only screen and (max-width: 900px) {
         .grid-container {
           display: grid;
           grid-template-areas:
@@ -263,7 +263,7 @@ filter: grayscale(100%) brightness(80%) sepia(100%) hue-rotate(115deg);
         
       }
 
-      @media only screen and (max-width: 799px) {
+      @media only screen and (max-width: 900px) {
         .item3{
           width:100%;
         }
@@ -387,7 +387,7 @@ filter: grayscale(100%) brightness(80%) sepia(100%) hue-rotate(115deg);
         resize: vertical;
         color: black;
       }
-      @media screen and (max-width: 760px) {
+      @media screen and (max-width: 900px) {
         input[type="text"],
         input[type="email"],
         textarea {
