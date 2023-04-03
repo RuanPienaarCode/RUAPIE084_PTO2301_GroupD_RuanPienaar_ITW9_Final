@@ -7,19 +7,19 @@
 
 <h2>Website Outcomes:</h2>
 #Your page must have a Header or Hero section with:<br>
-○ your full name
-○ your career title
-○ an introductory statement
-○ a link to your contact section
-○ A link to your GitHub account
+○ your full name<br>
+○ your career title<br>
+○ an introductory statement<br>
+○ a link to your contact section<br>
+○ A link to your GitHub account<br>
 #Your page must have an:<br>
-○ education section listing every educational institution you attended
-○ and/or all certifications and qualifications you have earned.
+○ education section listing every educational institution you attended<br>
+○ and/or all certifications and qualifications you have earned.<br>
 #Your page must have a skills section which showcases:<br>
-○ what programming languages you know,
-○ what tools you are proficient in,
-○ what software you are comfortable with
-○ any other relevant skills.
+○ what programming languages you know,<br>
+○ what tools you are proficient in,<br>
+○ what software you are comfortable with<br>
+○ any other relevant skills.<br>
 <br>
 #Your page must have a footer that contains a contact section with external links to your
 GitHub account, your LinkedIn account, and any other social links you want to add.
@@ -31,15 +31,15 @@ someone else.<br>
 Try to include other optional pages/sections such as work-experience, a projects section
 to showcase what you have worked on, a navigation bar if it's applicable to your site etc.
 Ensure that you have no placeholder or dummy content inside your web page.<br>
-#Styling Outcomes:
-#Make use of Flexbox styles:
-○ with any containers or content where containing elements are not flowing well
-with the content inside of them,
-○ where content is being cut off,
-○ wherever you see it fit to implement,
-○ where it may improve the responsiveness of content on your site.
+#Styling Outcomes:<br>
+#Make use of Flexbox styles:<br>
+○ with any containers or content where containing elements are not flowing well<br>
+with the content inside of them,<br>
+○ where content is being cut off,<br>
+○ wherever you see it fit to implement,<br>
+○ where it may improve the responsiveness of content on your site.<br>
 #Implement CSS Grid styles:<br>
-○ on any sort of content that uses fixed layouts that are unresponsive/use too
+○ on any sort of content that uses fixed layouts that are unresponsive/use too<br>
 many media queries.<br>
 There may be instances where either the application of CSS Grid and Flexbox may be a
 solution to your project. It is up to you, as the developer, to decide which is the best
@@ -50,6 +50,6 @@ Make effective use of HTML components such as: navbars, page hero, cards, button
 icons, etc to improve a users experience when navigating your site.
 #Ensure that your website has:<br>
 ○ good device responsiveness,<br>
-○ makes use of different fonts and colours that contrast well, and
-○ makes use of good layout and structuring tools such as Box Model, Flexbox or
+○ makes use of different fonts and colours that contrast well, and<br>
+○ makes use of good layout and structuring tools such as Box Model, Flexbox or<br>
 CSS Grid, etc.
